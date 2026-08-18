@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>EduSpark Support</title>
+<style>
+  :root {
+    --ink: #1c2321;
+    --paper: #f7f5f0;
+    --panel: #ffffff;
+    --accent: #2f5d50;
+    --accent-soft: #dce8e2;
+    --line: #e2ded3;
+    --muted: #6b6459;
+    --bot-bubble: #eef1ee;
+    --user-bubble: #2f5d50;
+    --user-text: #f7f5f0;
+    --escalate: #b5502f;
+  }
+  * { box-sizing: border-box; }
+  html, body {
+    height: 100%;
+    margin: 0;
+    font-family: 'Georgia', 'Iowan Old Style', serif;
+    background: var(--paper);
+    color: var(--ink);
+  }
+  body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 24px 16px;
+  }
+  .app {
+    width: 100%;
+    max-width: 620px;
+    display: flex;
+    flex-direction: column;
+    height: calc(100vh - 48px);
+  }
+  header {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    padding-bottom: 14px;
+    border-bottom: 2px solid var(--ink);
+    margin-bottom: 16px;
+  }
+  header .brand {
+    font-size: 22px;
+    letter-spacing: 0.02em;
+    font-weight: 700;
+  }
+  header .brand .spark { color: var(--accent); }
+  header .tag {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 0.14em;
+    color: var(--muted);
+  }
+  #chat-window {
+    flex: 1;
+    overflow-y: auto;
+    padding: 8px 4px 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+  }
+  .row { display: flex; flex-direction: column; max-width: 82%; }
+  .row.user { align-self: flex-end; align-items: flex-end; }
+  .row.bot { align-self: flex-start; align-items: flex-start; }
+  .bubble {
+    padding: 11px 15px;
+    border-radius: 4px;
+    line-height: 1.5;
+    font-size: 15px;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+  }
+  .row.user .bubble {
+    background: var(--user-bubble);
+    color: var(--user-text);
+    border-top-right-radius: 0;
+  }
+  .row.bot .bubble {
+    background: var(--bot-bubble);
+    color: var(--ink);
+    border-top-left-radius: 0;
+  }
+  .row.bot .bubble.escalated {
+    background: #f5e6de;
+    border-left: 3px solid var(--escalate);
+  }
+  .meta {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    font-size: 10.5px;
+    color: var(--muted);
+    margin-top: 4px;
+    letter-spacing: 0.03em;
+  }
+  .feedback {
+    display: flex;
+    gap: 6px;
+    margin-top: 6px;
+  }
+  .feedback button {
+    border: 1px solid var(--line);
+    background: var(--panel);
+    border-radius: 3px;
+    padding: 3px 9px;
+    font-size: 13px;
+    cursor: pointer;
+    color: var(--muted);
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+  }
+  .feedback button:hover { border-color: var(--accent); color: var(--accent); }
+  .feedback button.active-up { background: var(--accent-soft); color: var(--accent); border-color: var(--accent); }
+  .feedback button.active-down { background: #f5e6de; color: var(--escalate); border-color: var(--escalate); }
+
+  #input-area {
+    display: flex;
+    gap: 8px;
+    border-top: 2px solid var(--ink);
+    padding-top: 14px;
+  }
+  #msg-input {
+    flex: 1;
+    padding: 11px 13px;
+    border: 1px solid var(--line);
+    border-radius: 4px;
+    font-size: 15px;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    background: var(--panel);
+    color: var(--ink);
+  }
+  #msg-input:focus { outline: none; border-color: var(--accent); }
+  #send-btn {
+    background: var(--accent);
+    color: var(--paper);
+    border: none;
+    padding: 0 20px;
+    border-radius: 4px;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    font-size: 14px;
+    letter-spacing: 0.03em;
+    cursor: pointer;
+  }
+  #send-btn:hover { opacity: 0.9; }
+  #send-btn:disabled { opacity: 0.5; cursor: default; }
+
+  .typing {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    font-size: 13px;
+    color: var(--muted);
+    font-style: italic;
+    padding: 4px 15px;
+  }
+
+  .suggestions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin-bottom: 12px;
+  }
+  .suggestions button {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    font-size: 12px;
+    padding: 6px 10px;
+    border: 1px solid var(--line);
+    background: var(--panel);
+    border-radius: 14px;
+    cursor: pointer;
+    color: var(--ink);
+  }
+  .suggestions button:hover { border-color: var(--accent); color: var(--accent); }
+
+  ::-webkit-scrollbar { width: 8px; }
+  ::-webkit-scrollbar-thumb { background: var(--line); border-radius: 4px; }
+</style>
+</head>
+<body>
+<div class="app">
+  <header>
+    <div class="brand">Edu<span class="spark">Spark</span> Support</div>
+    <div class="tag">Session Assistant</div>
+  </header>
+
+  <div class="suggestions" id="suggestions">
+    <button data-q="How do I create an account?">Create account</button>
+    <button data-q="Where is my course after payment?">Track my order</button>
+    <button data-q="What is your refund policy?">Refund policy</button>
+    <button data-q="My video isn't playing">Tech issue</button>
+    <button data-q="What are your pricing plans?">Pricing</button>
+  </div>
+
+  <div id="chat-window"></div>
+
+  <div id="input-area">
+    <input id="msg-input" type="text" placeholder="Type your question..." autocomplete="off" />
+    <button id="send-btn">Send</button>
+  </div>
+</div>
+
+<script src="config.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

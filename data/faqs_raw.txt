@@ -1,0 +1,106 @@
+EduSpark Learning Platform - Customer Support Notes (RAW / UNSTRUCTURED)
+==========================================================================
+Collected from: support tickets, help center drafts, agent notes, old email threads
+Note: This is the raw dump before cleaning. Formatting is inconsistent on purpose.
+==========================================================================
+
+--- Onboarding / Getting Started ---
+
+hey so a lot of users ask how do I create an account on EduSpark?? 
+answer we usually give: Go to eduspark.com, click Sign Up, enter email + password OR
+use Google/Facebook login, verify email via link sent, done. takes 2 mins.
+
+Q - how to reset password
+forgot password link on login page, enter registered email, reset link sent, expires in 30 min
+
+users often confused about "how do i pick a course" -- 
+tell them: browse Catalog, use filters (subject, level, price), click course card to see
+syllabus + reviews, hit Enroll.
+
+Free trial? -- yes we give 7 day free trial on all Pro courses, no card needed for basic trial,
+card needed only if they want premium trial (rare case)
+
+--- Order / Enrollment Tracking ---
+
+"where is my course" type queries = basically order tracking equivalent for us since its digital
+answer: once payment done, course appears INSTANTLY under My Learning tab. if not showing,
+tell them to refresh / re-login. if still missing check payment status first.
+
+payment pending / stuck - happens sometimes with UPI, usually resolves in 15 min, if not
+resolved in 2 hrs then escalate to billing team
+
+certificate delivery Q - certificates auto generate after course completion (100% modules +
+passing quiz score 60%+), downloadable from Certificates section, usually instant but can
+take up to 24hrs during high traffic
+
+can I track my learning progress - yes, Dashboard shows % complete per course, streak counter,
+time spent
+
+--- Refund / Cancellation ---
+
+refund policy!! important one, get asked a LOT
+- full refund within 7 days of purchase IF less than 20% course content consumed
+- after 7 days = no refund, but can request course SWAP (credit transfer to another course)
+  within 30 days
+- subscription plans (monthly/annual) - cancel anytime, no refund for current billing period,
+  access continues till period end
+- refund processing time 5-7 business days back to original payment method
+
+how to cancel subscription - Settings > Subscription > Cancel Plan, confirm, done. no phone
+call needed unlike some competitors lol
+
+annual plan cancelled mid year - no partial refund, standard policy, sometimes agents give
+goodwill exceptions but that's case by case NOT a guarantee, don't promise this to user
+
+--- Technical Support ---
+
+video not playing - common issues: 1) check internet 2) clear browser cache 3) try different
+browser (chrome recommended) 4) disable adblock/vpn temporarily 5) app users - update to
+latest version
+
+cant login even with correct password - could be account locked after 5 failed attempts,
+locked for 30 min automatically, or could be browser cookie issue, tell them try incognito
+
+quiz not submitting - usually a connectivity blip, tell user to check answers saved
+(auto-save every 30 sec), refresh page, answers should still be there, if lost then contact
+support with screenshot
+
+app crashing on android/ios - ask app version + phone OS version, tell to reinstall, if
+persists escalate to tech team with device logs
+
+download for offline viewing not working - offline mode only available on Pro/Premium plans,
+also needs at least 500mb free storage, videos expire after 30 days offline (need to
+reconnect to renew)
+
+--- Subscription / Pricing ---
+
+pricing tiers we have:
+Basic = free, limited courses, ads, no certificate
+Pro = 499/month or 4999/year (2 months free basically), full catalog, certificates, no ads
+Premium = 999/month or 9999/year, everything in pro + 1-on-1 mentor sessions (2/month) +
+offline download + priority support
+
+student discount - yes 20% off Pro/Premium with valid student ID verification, verify via
+upload of student ID card, takes 24-48hr to verify
+
+can I switch from monthly to annual - yes anytime from Settings>Subscription>Upgrade,
+prorated credit applied automatically
+
+team/institution pricing - separate, need to contact sales team directly, not self-serve,
+minimum 10 seats
+
+is there a family plan - not currently, on roadmap, no ETA to give users
+
+--- Escalation triggers noted by agents ---
+
+if user says "this is ridiculous" or "worst platform" or similar frustrated language ->
+de-escalate, apologize, offer to connect human agent
+if user asks something totally outside our scope like general coding help unrelated to our
+courses, or asks about a different company entirely -> politely say out of scope, redirect
+if same question asked 3+ times rephrased -> bot probably not understanding, escalate
+proactively
+
+--- misc notes ---
+support hours 9am-9pm IST all days
+avg human response time 4 hrs (email) / 5 min (chat during hours)
+company name EduSpark Technologies Pvt Ltd, based Bangalore

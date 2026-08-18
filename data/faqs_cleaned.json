@@ -1,0 +1,282 @@
+[
+  {
+    "id": 1,
+    "category": "onboarding",
+    "question": "How do I create an account on EduSpark?",
+    "answer": "Go to eduspark.com and click Sign Up. You can enter your email and password, or sign up instantly using Google or Facebook login. A verification link will be sent to your email — click it to activate your account. The whole process takes about 2 minutes.",
+    "keywords": ["create account", "sign up", "register", "new account", "signup"]
+  },
+  {
+    "id": 2,
+    "category": "onboarding",
+    "question": "How do I reset my password?",
+    "answer": "Click 'Forgot Password' on the login page and enter your registered email. A reset link will be sent to you. Note that this link expires in 30 minutes, so use it promptly.",
+    "keywords": ["reset password", "forgot password", "change password", "cant login"]
+  },
+  {
+    "id": 3,
+    "category": "onboarding",
+    "question": "How do I choose or enroll in a course?",
+    "answer": "Browse the Catalog page and use filters like subject, level, and price to narrow your search. Click on a course card to view its syllabus and reviews, then click Enroll to join.",
+    "keywords": ["choose course", "pick course", "enroll", "select course", "find course"]
+  },
+  {
+    "id": 4,
+    "category": "onboarding",
+    "question": "Is there a free trial available?",
+    "answer": "Yes, we offer a 7-day free trial on all Pro courses. No card is required for the basic trial. A card is only needed if you want to try Premium features during the trial.",
+    "keywords": ["free trial", "trial period", "try before buy"]
+  },
+  {
+    "id": 5,
+    "category": "onboarding",
+    "question": "What information do I need to sign up?",
+    "answer": "You just need a valid email address and a password, or you can sign up instantly using your Google or Facebook account.",
+    "keywords": ["signup requirements", "what do i need to register"]
+  },
+  {
+    "id": 6,
+    "category": "order_tracking",
+    "question": "Where is my course after payment? / How do I track my order?",
+    "answer": "Once your payment is successful, the course appears instantly under the 'My Learning' tab. If it's not showing up, try refreshing the page or logging out and back in. If it's still missing, please check your payment status first.",
+    "keywords": ["where is my course", "order tracking", "track order", "course not showing", "purchase not appearing"]
+  },
+  {
+    "id": 7,
+    "category": "order_tracking",
+    "question": "My payment is pending or stuck. What should I do?",
+    "answer": "This sometimes happens with UPI payments and usually resolves within 15 minutes. If it hasn't resolved within 2 hours, please contact support so we can escalate it to our billing team.",
+    "keywords": ["payment pending", "payment stuck", "payment failed", "upi issue"]
+  },
+  {
+    "id": 8,
+    "category": "order_tracking",
+    "question": "When will I receive my course completion certificate?",
+    "answer": "Certificates are generated automatically after you complete 100% of course modules and score at least 60% on the passing quiz. They're downloadable from the Certificates section, usually instantly, though it can take up to 24 hours during periods of high traffic.",
+    "keywords": ["certificate", "course completion", "when do i get certificate", "certificate delay"]
+  },
+  {
+    "id": 9,
+    "category": "order_tracking",
+    "question": "Can I track my learning progress?",
+    "answer": "Yes! Your Dashboard shows the percentage completed for each course, your daily learning streak, and total time spent learning.",
+    "keywords": ["track progress", "learning progress", "dashboard", "streak", "completion percentage"]
+  },
+  {
+    "id": 10,
+    "category": "refund",
+    "question": "What is your refund policy?",
+    "answer": "You're eligible for a full refund within 7 days of purchase, provided you've consumed less than 20% of the course content. After 7 days, refunds aren't available, but you can request a course swap (credit transfer to another course) within 30 days of purchase.",
+    "keywords": ["refund policy", "refund", "money back", "get refund"]
+  },
+  {
+    "id": 11,
+    "category": "refund",
+    "question": "How do subscription refunds work?",
+    "answer": "For monthly or annual subscription plans, you can cancel anytime, but there's no refund for the current billing period — your access continues until the period ends.",
+    "keywords": ["subscription refund", "monthly plan refund money back"]
+  },
+  {
+    "id": 12,
+    "category": "refund",
+    "question": "How long does refund processing take?",
+    "answer": "Refunds typically take 5-7 business days to reflect back in your original payment method.",
+    "keywords": ["refund time", "how long refund", "refund processing time"]
+  },
+  {
+    "id": 13,
+    "category": "refund",
+    "question": "How do I cancel my subscription?",
+    "answer": "Go to Settings > Subscription > Cancel Plan, and confirm. That's it — no phone call needed.",
+    "keywords": ["cancel subscription", "cancel plan", "unsubscribe", "stop subscription"]
+  },
+  {
+    "id": 14,
+    "category": "refund",
+    "question": "I cancelled my annual plan mid-year. Can I get a partial refund?",
+    "answer": "Our standard policy does not include partial refunds for annual plans cancelled mid-term. Please contact support to discuss your specific situation.",
+    "keywords": ["annual plan cancel", "partial refund", "mid year cancel"]
+  },
+  {
+    "id": 15,
+    "category": "technical",
+    "question": "My video isn't playing. What should I do?",
+    "answer": "Try these steps: 1) Check your internet connection, 2) Clear your browser cache, 3) Try a different browser (we recommend Chrome), 4) Temporarily disable ad-blockers or VPN, 5) If using our app, make sure it's updated to the latest version.",
+    "keywords": ["video not playing", "video issue", "playback problem", "video wont load"]
+  },
+  {
+    "id": 16,
+    "category": "technical",
+    "question": "I can't log in even though my password is correct. Why?",
+    "answer": "Your account may be temporarily locked after 5 failed login attempts — this lock automatically lifts after 30 minutes. It could also be a browser cookie issue; try logging in using an incognito/private window.",
+    "keywords": ["cant login", "login issue", "account locked", "login problem"]
+  },
+  {
+    "id": 17,
+    "category": "technical",
+    "question": "My quiz isn't submitting. What now?",
+    "answer": "This is usually a temporary connectivity issue. Your answers auto-save every 30 seconds, so refresh the page and your answers should still be there. If they're lost, please contact support with a screenshot.",
+    "keywords": ["quiz not submitting", "quiz issue", "quiz problem", "test not submitting"]
+  },
+  {
+    "id": 18,
+    "category": "technical",
+    "question": "The app keeps crashing on my phone. What should I do?",
+    "answer": "Please try reinstalling the app first. If the issue continues, contact support with your app version and phone OS version so we can escalate it to our technical team.",
+    "keywords": ["app crashing", "app crash", "mobile app issue", "android crash", "ios crash"]
+  },
+  {
+    "id": 19,
+    "category": "technical",
+    "question": "Why can't I download courses for offline viewing?",
+    "answer": "Offline download is only available on Pro and Premium plans. You'll also need at least 500MB of free storage. Note that offline videos expire after 30 days and require reconnecting to the internet to renew.",
+    "keywords": ["offline download", "download course", "offline viewing", "offline mode"]
+  },
+  {
+    "id": 20,
+    "category": "pricing",
+    "question": "What are your pricing plans?",
+    "answer": "We offer three tiers: Basic (free, limited courses, ads, no certificate), Pro (₹499/month or ₹4999/year — full catalog, certificates, no ads), and Premium (₹999/month or ₹9999/year — everything in Pro plus 2 mentor sessions/month, offline download, and priority support).",
+    "keywords": ["pricing", "plans", "cost", "how much", "subscription price"]
+  },
+  {
+    "id": 21,
+    "category": "pricing",
+    "question": "Is there a student discount?",
+    "answer": "Yes, students get 20% off Pro and Premium plans with valid student ID verification. Upload your student ID card for verification, which takes 24-48 hours.",
+    "keywords": ["student discount", "student price", "discount"]
+  },
+  {
+    "id": 22,
+    "category": "pricing",
+    "question": "Can I switch from a monthly to an annual plan?",
+    "answer": "Yes, you can upgrade anytime from Settings > Subscription > Upgrade. A prorated credit from your current plan is applied automatically.",
+    "keywords": ["switch plan", "monthly to annual", "upgrade plan", "change plan"]
+  },
+  {
+    "id": 23,
+    "category": "pricing",
+    "question": "Do you offer team or institution pricing?",
+    "answer": "Yes, but this isn't self-serve. Please contact our sales team directly. Team/institution plans require a minimum of 10 seats.",
+    "keywords": ["team pricing", "institution pricing", "bulk pricing", "enterprise plan"]
+  },
+  {
+    "id": 24,
+    "category": "pricing",
+    "question": "Is there a family plan?",
+    "answer": "We don't currently offer a family plan, though it's on our roadmap. We don't have a specific timeline to share yet.",
+    "keywords": ["family plan", "family subscription"]
+  },
+  {
+    "id": 25,
+    "category": "onboarding",
+    "question": "How do I verify my email?",
+    "answer": "After signing up, check your inbox for a verification email and click the link inside. If you don't see it, check your spam folder or request a new verification email from the login page.",
+    "keywords": ["verify email", "email verification", "confirmation email"]
+  },
+  {
+    "id": 26,
+    "category": "technical",
+    "question": "Which browsers are supported?",
+    "answer": "We recommend using Google Chrome for the best experience. Firefox and Edge are also supported. Safari sometimes has playback issues with certain video formats.",
+    "keywords": ["supported browsers", "which browser", "browser compatibility"]
+  },
+  {
+    "id": 27,
+    "category": "order_tracking",
+    "question": "Can I get an invoice for my purchase?",
+    "answer": "Yes, invoices are automatically generated and available under Settings > Billing > Invoices, downloadable as PDF.",
+    "keywords": ["invoice", "receipt", "billing document", "tax invoice"]
+  },
+  {
+    "id": 28,
+    "category": "refund",
+    "question": "Can I get a refund if I don't like the instructor?",
+    "answer": "Yes, this falls under our standard refund policy — you're eligible for a full refund within 7 days of purchase if you've consumed less than 20% of the course content, regardless of the reason.",
+    "keywords": ["dont like instructor", "refund reason", "unhappy with course"]
+  },
+  {
+    "id": 29,
+    "category": "technical",
+    "question": "How do I update the mobile app?",
+    "answer": "Go to the Google Play Store or Apple App Store, search for EduSpark, and tap Update if an update is available. We recommend enabling auto-updates.",
+    "keywords": ["update app", "app update", "new version"]
+  },
+  {
+    "id": 30,
+    "category": "pricing",
+    "question": "What payment methods do you accept?",
+    "answer": "We accept credit/debit cards, UPI, net banking, and popular wallets. All payments are processed securely.",
+    "keywords": ["payment methods", "how to pay", "accepted payments"]
+  },
+  {
+    "id": 31,
+    "category": "onboarding",
+    "question": "Can I use EduSpark on multiple devices?",
+    "answer": "Yes, your account works across web, Android, and iOS. Your progress syncs automatically across all devices.",
+    "keywords": ["multiple devices", "sync devices", "use on phone and laptop"]
+  },
+  {
+    "id": 32,
+    "category": "order_tracking",
+    "question": "I was charged twice for the same course. What do I do?",
+    "answer": "This can occasionally happen due to a payment gateway glitch. Please contact support with both transaction IDs, and we'll process a refund for the duplicate charge within 5-7 business days.",
+    "keywords": ["charged twice", "double charge", "duplicate payment"]
+  },
+  {
+    "id": 33,
+    "category": "technical",
+    "question": "Can I change the video playback speed?",
+    "answer": "Yes, use the speed control icon on the video player to choose speeds from 0.5x to 2x.",
+    "keywords": ["playback speed", "video speed", "1.5x", "2x speed"]
+  },
+  {
+    "id": 34,
+    "category": "pricing",
+    "question": "Do prices include tax?",
+    "answer": "Displayed prices are exclusive of applicable GST, which is calculated and added at checkout based on your billing location.",
+    "keywords": ["tax included", "gst", "price with tax"]
+  },
+  {
+    "id": 35,
+    "category": "refund",
+    "question": "What if I accidentally enrolled in the wrong course?",
+    "answer": "If it's within 7 days and you've consumed less than 20% of the content, you're covered under our standard refund policy. Alternatively, you can request a free course swap within 30 days.",
+    "keywords": ["wrong course", "enrolled by mistake", "accidental purchase"]
+  },
+  {
+    "id": 36,
+    "category": "onboarding",
+    "question": "Can I change my registered email address?",
+    "answer": "Yes, go to Settings > Account > Email, enter your new email, and verify it via the confirmation link sent to the new address.",
+    "keywords": ["change email", "update email", "edit account email"]
+  },
+  {
+    "id": 37,
+    "category": "technical",
+    "question": "Are subtitles/captions available?",
+    "answer": "Yes, most courses offer English subtitles. Some popular courses also include Hindi subtitles. Look for the CC icon on the video player.",
+    "keywords": ["subtitles", "captions", "cc", "hindi subtitles"]
+  },
+  {
+    "id": 38,
+    "category": "order_tracking",
+    "question": "How do I access course materials like PDFs and slides?",
+    "answer": "Downloadable resources like PDFs and slides are available under the 'Resources' tab within each course module.",
+    "keywords": ["course materials", "pdf download", "slides", "resources tab"]
+  },
+  {
+    "id": 39,
+    "category": "pricing",
+    "question": "Is Premium worth it over Pro?",
+    "answer": "Premium adds 1-on-1 mentor sessions (2 per month), offline download, and priority support on top of everything in Pro. It's a good fit if you want personalized guidance or need to learn offline.",
+    "keywords": ["premium vs pro", "is premium worth it", "compare plans"]
+  },
+  {
+    "id": 40,
+    "category": "onboarding",
+    "question": "What is EduSpark?",
+    "answer": "EduSpark is an online learning platform (by EduSpark Technologies Pvt Ltd, based in Bangalore) offering courses across various subjects, with certificates, mentor support, and progress tracking.",
+    "keywords": ["what is eduspark", "about eduspark", "company info"]
+  }
+]

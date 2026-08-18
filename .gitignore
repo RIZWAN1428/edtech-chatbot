@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+*.egg-info/
+venv/
+.venv/
+env/
+
+# Environment / secrets
+.env
+*.env.local
+
+# Database / logs (generated at runtime, not source)
+logs/*.db
+logs/*.db-journal
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editors
+.vscode/
+.idea/
+*.swp
+
+# Downloaded model cache (regenerated automatically on first run)
+.cache/
+sentence_transformers_cache/
+
+# How-to-run guide is for local reference only, not for version control
+HOW_TO_RUN.md
